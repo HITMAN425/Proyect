@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>Productos - CI</title>
+		<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+		<script src="CSS/script.js"></script>
+	</head>
+<body>
+	<header> 
+		<center>
+			<div id="cabecera">	
+					<img src="CSS/Imagenes/Logo/Logo1E.png" width="43%" border="0">
+			</div>
+		</center>
+		<div class="menu_bar">
+			<a href="#" class="btn-menu"><span class="icon-list2"></span>Menu</a>
+		</div>
+		<nav class="menu">
+			<div class="contenedor">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="productos.html">Productos</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="contactanos.html">Contáctanos</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header> 
+	<br>
+	<!--Fin de la cabecera-->
+	<br>
+		<h1>Nuestros Productos</h1>
+		<br>
+
+	<div id="ContenedorBoton">
+	  <button class="botonListH" onclick="FiltroSeleccion('productoM')"> Productos para Varon</button>
+	  <button class="botonListF" onclick="FiltroSeleccion('productoF')"> Productos para Dama</button>
+	  <button class="botonListN" onclick="FiltroSeleccion('productoN')"> Productos para Niñ@</button>
+	</div>
+	<!--Fin del Container-->
+	<hr>
+	<div class="seccion1-producto" id="productos">	
+		<div class="row">
+		  <center>
+		  <div class="column productoN">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoN/productoniño1.jpg">
+						<div class="txte">
+								<h3>Primeros Pasos</h3>
+						</div>
+					</figure>
+					<ul>
+							<li>Descripción: Zapatos Primeros pasos para niño(a)</li>
+							<li>Talla: 18-19</li>
+							<li>Color: Todos los colores</li>
+							<li>Precio:</li>
+							<li><strike style="color:red;">124.00</strike></li>
+							<li id="oferta">99.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+		  
+		  <div class="column productoN">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoN/productoniño2.jpg">
+						<div class="txte">
+								<h2>Zapatillas</h2>
+						</div>
+					</figure>
+					<ul>
+							<li>Descripción: Zapatillas para niño(a)</li>
+							<li>Talla: 18-24</li>
+							<li>Color: Todos los colores</li>
+							<li>Precio:</li>
+							<li><strike style="color:red;">100.00</strike></li>
+							<li id="oferta">87.50</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoN">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoN/productoniño3.jpg">
+						<div class="txte">
+								<h2>Urban</h2>
+						</div>
+					</figure>
+					<ul>
+							<li>Descripción: Urban para niño(a)</li>
+							<li>Talla: 20-24</li>
+							<li>Color: Todos los colores</li>
+							<li>Precio:</li>
+							<li><strike style="color:red;">150.00</strike></li>
+							<li id="oferta">100.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoN">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoN/productoniño4.jpg">
+						<div class="txte">
+								<h3>Para Vestir</h3>
+						</div>
+					</figure>
+					<ul>
+							<li>Descripción: Zapatos para vestir para niño(a)</li>
+							<li>Talla: 19-25</li>
+							<li>Color: Colores Oscuros</li>
+							<li>Precio:</li>
+							<li><strike style="color:red;">200.00</strike></li>
+							<li id="oferta">135.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoN">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoN/productoniño5.jpg">
+						<div class="txte">
+								<h2>Chimpunes</h2>
+						</div>
+					</figure>
+					<ul>
+							<li>Descripción: Chimpunes para niño(a)</li>
+							<li>Talla: 19-26</li>
+							<li>Color: Escala de Marrones</li>
+							<li>Precio:</li>
+							<li><strike style="color:red;">250.00</strike></li>
+							<li id="oferta">235.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoN">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoN/productoniño6.jpg">
+						<div class="txte">
+								<h2>Deportivas</h2>
+						</div>
+					</figure>
+					<ul>
+							<li>Descripción: Deportivas para niño(a)</li>
+							<li>Talla: 20-24</li>
+							<li>Color: Negro</li>
+							<li>Precio:</li>
+							<li><strike style="color:red;">190.00</strike></li>
+							<li id="oferta">126.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoN">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoN/productoniño7.jpg">
+						<div class="txte">
+								<h2>Sandalias</h2>
+						</div>
+					</figure>
+						<ul>
+							<li>Descripción: Sandalias para niño(a)</li>
+							<li>Talla: 19-25</li>
+							<li>Color: Todos los Colores</li>
+							<li>Precio:</li>
+							<li><strike style="color:red;">80.00</strike></li>
+							<li id="oferta">48.00</li>
+						</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoN">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoN/productoniño8.jpg">
+						<div class="txte">
+								<h2>Botas</h2>
+						</div>
+					</figure>
+					<ul>
+							<li>Descripción: Botas para niño(a)</li>
+							<li>Talla: 19-24</li>
+							<li>Color: Todos los Colores</li>
+							<li>Precio:</li>
+							<li><strike style="color:red;">300.00</strike></li>
+							<li id="oferta">255.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoN">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoN/productoniño9.jpg">
+						<div class="txte">
+								<h3>Zapatos de Charol</h3>
+						</div>
+					</figure>
+					<ul>
+							<li>Descripción: Zapato charol para niño(a)</li>
+							<li>Talla: 18-26</li>
+							<li>Color: Todos los Colores</li>
+							<li>Precio:</li>
+							<li><strike style="color:red;">275.00</strike></li>
+							<li id="oferta">215.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+
+
+		  <div class="column productoF">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoF/alpargata.png">
+						<div class="txteF">
+								<h2>Alpargata</h2>
+						</div>
+					</figure>
+					<ul>
+						<li>Descripción: Alpargatas para mujer</li>
+						<li>Talla: 30-35</li>
+						<li>Color: Todos los colores</li>
+						<li>Precio:</li>
+						<li><strike style="color:red;">250.00</strike></li>
+						<li id="oferta">135.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoF">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoF/balerina.png">
+						<div class="txteF">
+								<h2>Balerinas</h2>
+						</div>
+					</figure>
+					<ul>
+						<li>Descripción: Balerinas para mujer</li>
+						<li>Talla: 30-35</li>
+						<li>Color: Todos los colores</li>
+						<li>Precio:</li>
+						<li><strike style="color:red;">280.00</strike></li>
+						<li id="oferta">155.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoF">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoF/botas.jpg">
+						<div class="txteF">
+								<h2>Botas</h2>
+						</div>
+					</figure>
+					<ul>
+						<li>Descripción: Botas para mujer</li>
+						<li>Talla: 30-35</li>
+						<li>Color: Todos los colores</li>
+						<li>Precio:</li>
+						<li><strike style="color:red;">280.00</strike></li>
+						<li id="oferta">235.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoF">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoF/brogues.png">
+						<div class="txteF">
+								<h2>Brogues</h2>
+						</div>
+					</figure>
+					<ul>
+						<li>Descripción: Brogues para mujer</li>
+						<li>Talla: 30-35</li>
+						<li>Color: Todos los colores</li>
+						<li>Precio:</li>
+						<li><strike style="color:red;">190.00</strike></li>
+						<li id="oferta">145.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoF">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoF/botines.jpg">
+						<div class="txteF">
+								<h2>Botines</h2>
+						</div>
+					</figure>
+					<ul>
+						<li>Descripción: Botines para mujer</li>
+						<li>Talla: 30-35</li>
+						<li>Color: Todos los colores</li>
+						<li>Precio:</li>
+						<li><strike style="color:red;">180.00</strike></li>
+						<li id="oferta">95.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoF">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoF/mocason.png">
+						<div class="txteF">
+								<h2>Mocasines</h2>
+						</div>
+					</figure>
+					<ul>
+						<li>Descripción: Mocasin para mujer</li>
+						<li>Talla: 30-35</li>
+						<li>Color: Todos los colores</li>
+						<li>Precio:</li>
+						<li><strike style="color:red;">350.00</strike></li>
+						<li id="oferta">155.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoF">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoF/mules.png">
+						<div class="txteF">
+								<h2>Mules</h2>
+						</div>
+					</figure>
+					<ul>
+						<li>Descripción: Mules para mujer</li>
+						<li>Talla: 30-35</li>
+						<li>Color: Todos los colores</li>
+						<li>Precio:</li>
+						<li><strike style="color:red;">300.00</strike></li>
+						<li id="oferta">155.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoF">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoF/zapatosOxford.jpg">
+						<div class="txteF">
+								<h2>Oxford</h2>
+						</div>
+					</figure>
+					<ul>
+						<li>Descripción: Oxford para mujer</li>
+						<li>Talla: 30-35</li>
+						<li>Color: Todos los colores</li>
+						<li>Precio:</li>
+						<li><strike style="color:red;">350.00</strike></li>
+						<li id="oferta">235.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoF">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoF/sandalias.jpg">
+						<div class="txteF">
+								<h2>Sandalias</h2>
+						</div>
+					</figure>
+					<ul>
+						<li>Descripción: Sandalias para mujer</li>
+						<li>Talla: 30-35</li>
+						<li>Color: Todos los colores</li>
+						<li>Precio:</li>
+						<li><strike style="color:red;">100.00</strike></li>
+						<li id="oferta">75.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoF">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoF/Zapatillas.jpg">
+						<div class="txteF">
+								<h2>Zapatillas</h2>
+						</div>
+					</figure>
+					<ul>
+						<li>Descripción: Zapatillas para mujer</li>
+						<li>Talla: 30-35</li>
+						<li>Color: Todos los colores</li>
+						<li>Precio:</li>
+						<li><strike style="color:red;">250.00</strike></li>
+						<li id="oferta">125.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoF">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoF/sneackers.jpg">
+						<div class="txteF">
+								<h2>Sneackers</h2>
+						</div>
+					</figure>
+					<ul>
+						<li>Descripción: Sneackers para mujer</li>
+						<li>Talla: 30-35</li>
+						<li>Color: Todos los colores</li>
+						<li>Precio:</li>
+						<li><strike style="color:red;">500.00</strike></li>
+						<li id="oferta">335.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoF">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoF/Zueco.png">
+						<div class="txteF">
+								<h2>Zuecos</h2>
+						</div>
+					</figure>
+					<ul>
+						<li>Descripción: Zuecos para mujer</li>
+						<li>Talla: 30-35</li>
+						<li>Color: Todos los colores</li>
+						<li>Precio:</li>
+						<li><strike style="color:red;">275.00</strike></li>
+						<li id="oferta">207.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+
+
+		  
+		  <div class="column productoM">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoM/botas.jpg">
+						<div class="txteM">
+								<h2>Botas</h2>
+						</div>
+					</figure>
+					<ul>
+							<li>Descripción: Botas para hombre</li>
+							<li>Talla: 39-45</li>
+							<li>Color: Marron, Marrón claro</li>
+							<li>Precio:</li>
+							<li><strike style="color:red;">350.00</strike></li>
+							<li id="oferta">285.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoM">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoM/chimpunes.jpg">
+						<div class="txteM">
+								<h2>Chimpunes</h2>
+						</div>
+					</figure>
+					<ul>
+							<li>Descripción: Chimpunes para hombre</li>
+							<li>Talla: 38-45</li>
+							<li>Color: Todos los colores</li>
+							<li>Precio:</li>
+							<li><strike style="color:red;">400.00</strike></li>
+							<li id="oferta">295.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoM">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoM/deportivas.jpg">
+						<div class="txteM">
+								<h2>Deportivas</h2>
+						</div>
+					</figure>
+					<ul>
+							<li>Descripción: Deportivas para hombre</li>
+							<li>Talla: 40-46</li>
+							<li>Color: Todos los colores</li>
+							<li>Precio:</li>
+							<li><strike style="color:red;">285.00</strike></li>
+							<li id="oferta">238.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoM">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoM/mocasines.jpg">
+						<div class="txteM">
+								<h2>Mocasines</h2>
+						</div>
+					</figure>
+					<ul>
+							<li>Descripción: Mocasines para hombre</li>
+							<li>Talla: 38-45</li>
+							<li>Color: Colores Oscuros</li>
+							<li>Precio:</li>
+							<li><strike style="color:red;">300.00</strike></li>
+							<li id="oferta">258.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoM">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoM/monk.jpg">
+						<div class="txteM">
+								<h2>Monk</h2>
+						</div>
+					</figure>
+					<ul>
+							<li>Descripción: Monk para hombre</li>
+							<li>Talla: 39-46</li>
+							<li>Color: Escala de Marrones</li>
+							<li>Precio:</li>
+							<li><strike style="color:red;">350.00</strike></li>
+							<li id="oferta">275.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoM">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoM/oxford.jpg">
+						<div class="txteM">
+								<h2>Oxford</h2>
+						</div>
+					</figure>
+					<ul>
+							<li>Descripción: Zapatos oxford para hombre</li>
+							<li>Talla: 38-46</li>
+							<li>Color: Negro</li>
+							<li>Precio:</li>
+							<li><strike style="color:red;">250.00</strike></li>
+							<li id="oferta">215.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoM">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoM/sandalia_dedo.jpg">
+						<div class="txteM">
+								<h2>De Dedo</h2>
+						</div>
+					</figure>
+					<ul>
+							<li>Descripción: Sandalia de dedo para hombre</li>
+							<li>Talla: 39-46</li>
+							<li>Color: Todos los Colores</li>
+							<li>Precio:</li>
+							<li><strike style="color:red;">200.00</strike></li>
+							<li id="oferta">95.00</li>
+						</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoM">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoM/sandalia_playera.jpg">
+						<div class="txteM">
+								<h2>Playeras</h2>
+						</div>
+					</figure>
+					<ul>
+							<li>Descripción: Sandalia playera para hombre</li>
+							<li>Talla: 39-46</li>
+							<li>Color: Todos los Colores</li>
+							<li>Precio:</li>
+							<li><strike style="color:red;">210.00</strike></li>
+							<li id="oferta">105.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+
+		  <div class="column productoM">
+		    <div class="content">
+		      <div class="item1-producto">
+					<figure>
+						<img src="CSS/Imagenes/imagenes_productoM/zapatillas.jpg">
+						<div class="txteM">
+								<h2>Zapatillas</h2>
+						</div>
+					</figure>
+					<ul>
+							<li>Descripción: Zapatillas para hombre</li>
+							<li>Talla: 38-46</li>
+							<li>Color: Todos los Colores</li>
+							<li>Precio:</li>
+							<li><strike style="color:red;">300.00</strike></li>
+							<li id="oferta">155.00</li>
+					</ul>
+					<input class="boton" type="submit" name="" value="Comprar">
+				</div>
+		    </div>
+		  </div>
+		  
+		  </center>
+		<!-- END GRID -->
+		</div>
+	</div>
+	
+		<hr>
+	    <div class="variedad3-index">
+		    <div class="botones">
+				<input class="boton" type="button" name="" value="Factura Electrónica">
+			</div>
+		        <div class="botones">			
+					<input class="boton" type="button" name="" value="Libro de Reclamaciones">
+			</div>
+		</div>
+	    <div class="variedad3-index">
+				<div class="botones">
+					<input class="boton" type="button" name="" value="Término y condiciones">
+				</div>			
+				<div class="botones">			
+					<input class="boton" type="button" name="" value="Política de privacidad">
+				</div>
+		</div>		
+		<br>
+		<br>
+	
+	<footer>
+		<div class="pie_depagina">
+			<div class="pie_conteiner">
+				<p >Hecho con</p>
+			</div>
+			<div class="pie_conteiner">
+				<img src="Logo/corazon.png"  width="50px">
+			</div>			
+		</div>
+	</footer>
+</body>
+</html>
